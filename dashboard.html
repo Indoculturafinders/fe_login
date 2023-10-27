@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title id="KITCHEN PEDIA"></title>
+    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.9.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+
+    <script src="js/dashboard.js"></script>
+    <script src="js/cookie.js"></script>
+</head>
+
+<body>
+    <section class="hero is-info is-fullheight">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="#">
+                            <img src="img/logop3.jpeg" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <span class="navbar-item">
+                    <a class="button is-primary is-outlined" id="logoutButton" onclick="logout()">
+                        <span class="icon">
+                            <i class="fa fa-logout"></i>
+                        </span>
+                        <span>Logout</span>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="column is-6 is-offset-3">
+                    <a href="#">
+                        <button id="button" class="button is-large is-white is-responsive is-outlined">DASHBOARD</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <script type="module">
+        // Nama cookie yang akan diperiksa
+        import { getCookie } from "https://jscroot.github.io/cookie/croot.js";
+        const cookieName = "token";
+    
+        // Periksa apakah cookie ada dengan menggunakan fungsi dari file cookieUtil.js
+        if (!getCookie(cookieName)) {
+          // Jika cookie tidak ada, arahkan kembali ke halaman login
+          window.location.href = "login.html";
+        }
+    </script>
+    <script>
+        function logout(){
+            let konfirmasi= confirm ('anda yakin akan logout?') 
+                if (konfirmasi) {
+                deleteCookie("token");
+            }
+        }
+    </script> -->
+
+</body>
+</html>
