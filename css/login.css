@@ -1,7 +1,7 @@
 * {
     font-family: 'Nunito Sans', sans-serif;
   }
-  
+
   :root {
     --shadowDark: #f1f0f8;
     --background: #14b2eb;
@@ -17,6 +17,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: flex;
+    justify-content: center;
   }
   
   .hero-body {
@@ -24,6 +26,7 @@
   }
   
   .login {
+    width: 50%;
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 4px 4px 10px var(--shadowDark), -4px -4px 10px var(--shadowLight);
@@ -33,6 +36,8 @@
 
   .login-icon{
     border-radius: 20px;
+    width: auto;
+    height: auto;
   }
   
   input {
@@ -40,9 +45,12 @@
   }
   
   form{
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
+  .button {
+    width: 50%;
+  }
   /* a {
     font-weight: 500;
     font-palette: #04e1aa;
