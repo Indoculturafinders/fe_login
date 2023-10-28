@@ -30,11 +30,19 @@
     background-color: #151414;
     border: #f1f0f8;
   }
+
+  .login-icon{
+    border-radius: 20px;
+  }
   
   input {
     background: var(--shadowDark) !important;
   }
   
+  form{
+    margin-top: 30px;
+  }
+
   /* a {
     font-weight: 500;
     font-palette: #04e1aa;
