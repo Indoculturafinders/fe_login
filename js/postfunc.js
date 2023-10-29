@@ -17,7 +17,7 @@ function responseData(result) {
 
     setInner("pesan", result.message);
     if (result.message == "Selamat Datang") {
-        setSecureCookieWithExpireHour("token", result.token, 2); // Menggunakan setSecureCookieWithExpireHour
+        setSecureCookieWithExpireHour("token", result.token, 2); 
         alert("Berhasil Masuk " + result.message);
         window.location.href = "dashboard.html";    
     } else {
