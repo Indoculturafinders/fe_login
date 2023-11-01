@@ -44,12 +44,14 @@
     background: var(--shadowDark) !important;
   }
   
-  form{
-    margin-top: 20px;
+  .field{
+    margin-top: 10px;
   }
 
-  @media screen and (max-width: 897px) {
+
+
+  @media screen and (max-width: 450px) {
     .login {
       width: 90%;
-    }
-}
+      }
+  }
