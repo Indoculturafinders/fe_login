@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="css/login.css">
 
-    <script src="js/cookie.js"></script>
-
   </head>
 
   <body>
@@ -19,15 +17,14 @@
       <div class="hero-body has-text-centered">
         <div class="login">
           <img class="login-icon" src="img/p3.jpeg" alt="Logo" >
-          <form>
             <div class="field">
               <div class="control">
-                <input class="input is-medium is-rounded" type="text" placeholder="Username" autocomplete="username" value="" required />
+                <input id="username" name="username" class="input is-medium is-rounded" type="text" placeholder="Username" autocomplete="username" value="" required />
               </div>
             </div>
             <div class="field">
               <div class="control">
-                <input class="input is-medium is-rounded" type="password" placeholder="Password" autocomplete="current-password" value="" required />
+                <input id="password" name="password" class="input is-medium is-rounded" type="password" placeholder="Password" autocomplete="current-password" value="" required />
               </div>
             </div>
             <br />
@@ -35,7 +32,9 @@
             onclick="PostSignUp()">
               Login
             </button>
-          </form>
+            <div style="visibility: hidden;" class="container">
+              <div class="notification is-primary" id="pesan"></div>
+             </div>
           <br>
           <nav class="level">
             <div class="level-item has-text-centered">
