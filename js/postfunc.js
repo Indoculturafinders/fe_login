@@ -16,7 +16,7 @@ export default function PostSignUp() {
 function responseData(result) {
 
     setInner("pesan", result.message);
-    if (result.message == "Selamat Datang") {
+    if (result.message == "Welcome") {
         setCookieWithExpireHour("token", result.token, 2); 
         window.location.href = "dashboard.html";    
     } else {
