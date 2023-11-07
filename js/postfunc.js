@@ -18,7 +18,7 @@ function responseData(result) {
     setInner("pesan", result.message);
     if (result.message == "Selamat Datang") {
         setCookieWithExpireHour("token", result.token, 2); 
-        window.location.href = "dashboard.html";    
+        window.location.href = "admin.html";    
     } else {
         console.log(result.message);
     }
