@@ -12,7 +12,7 @@ function responseData(result) {
 
     setInner("pesan", result.message);
     if (result.message == "Berhasil Input data") {
-        window.location.href = "dashboard.html";    
+        window.location.href = "index.html";    
     } else {
         console.log(result.message);
     }
