@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fetchData();
 });
 
-function fetchData() {
+function fetchData() { 
     fetch('https://be.indoculturalfinder.my.id/api/cultures')
         .then(response => response.json())
         .then(data => {
