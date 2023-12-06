@@ -17,7 +17,7 @@ function fetchData() {
         .catch(error => console.error('Error:', error));
 }
 
-function displayData(cultures) {
+function displayData(cultures) { 
     const tableBody = document.querySelector('#cultureTable tbody');
 
     cultures.forEach((culture, index) => {
