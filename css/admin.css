@@ -1,0 +1,34 @@
+    /* Gaya untuk modal detail */
+    #detailModal .modal-content {
+        background-color: #fff; /* Warna latar belakang */
+        border-radius: 10px; /* Sudut elemen */
+    }
+
+    #detailModal .modal-header {
+        background-color: #007bff; /* Warna header */
+        color: #fff; /* Warna teks header */
+        border-bottom: none; /* Hapus garis bawah header */
+    }
+
+    #detailModal .modal-title {
+        font-size: 1.5rem; /* Ukuran teks judul */
+    }
+
+    #detailModal .modal-body {
+        padding: 20px; /* Ruang dalam tubuh modal */
+    }
+
+    #detailModal .modal-footer {
+        background-color: #f8f9fa; /* Warna footer */
+        border-top: none; /* Hapus garis atas footer */
+    }
+
+    /* Gaya untuk tombol tutup modal */
+    #detailModal .btn-close {
+        color: #fff; /* Warna teks tombol tutup */
+    }
+
+    th i {
+        font-size: 0.6em;
+        margin-left: 5px;
+    }
